@@ -1,5 +1,7 @@
 import Head from 'next/head'
+import StepsSection from '../src/components/steps/StepsSection'
 import HeroSection from '../src/components/HeroSection'
+import SloganGeneratorSection from '../src/components/slogan-generator/SloganGeneratorSection'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -12,6 +14,8 @@ export default function Home() {
       </Head>
       <main>
         <HeroSection />
+        <SloganGeneratorSection />
+        <StepsSection />
       </main>
 
     </div>
