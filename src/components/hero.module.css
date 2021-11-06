@@ -1,25 +1,30 @@
 .lightBg {
   background-color: #fafafa;
-  height: 100vh;
+  padding: 148px 0 80px;
+  min-height: 100vh;
 }
 
 .blueBg {
   background: #146eb4;
   height: 25vw;
-  position: relative;
+  width: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  left: 0;
+  top: 0;
 }
 
 .sloganCard {
-  position: absolute;
-  top: 10vw;
-  left: 15vw;
-  left: 15vw;
+  position: relative;
+  z-index: 1;
   height: auto;
-  width: 70vw;
+  width: 82vw;
   border-radius: 8px;
+  margin: 0 auto;
   z-index: 1;
   background-color: #fff;
-  padding: 50px 48px;
+  box-shadow: 0 2px 8px 0 rgb(26 24 30 / 6%);
 }
 
 .navbar {

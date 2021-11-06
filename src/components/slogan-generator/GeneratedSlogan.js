@@ -1,20 +1,35 @@
 import React from 'react';
+import styles from './slogan.module.css'
+import SloganCard from './SloganCard';
 
 const GeneratedSlogan = () => {
+
+    const slogans = ["There is no Sore it will Not Heal, No cool it will not Subdue.",
+        "coziness building for tomorrow",
+        "There is no Sore it will Not Heal, No cool it will not Subdue.",
+        "coziness building for tomorrow",
+        "There is no Sore it will Not Heal, No cool it will not Subdue.",
+        "coziness building for tomorrow",
+        "There is no Sore it will Not Heal, No cool it will not Subdue.",
+        "coziness building for tomorrow"]
+
     return (
-        <div >
-            <h6>We have generated 1,023 slogans for “cozy”</h6>
-            <button>Download All</button>
-            <div>
-                There is no Sore it will Not Heal, No cool it will not Subdue.
+        <div className={styles.sloganList}>
+            <div className={styles.resultDiv}>
+                <p className={styles.text} >We have generated 1,023 slogans for “cozy”</p>
+                <div style={{ flexGrow: 1 }}></div>
+                <button className={styles.outlinedButton}>Download All</button>
             </div>
-            <div>
-                There is no Sore it will Not Heal, No cool it will not Subdue.
+            <div className={styles.slogansDiv}>
+                {slogans.map(slogan => {
+                    return (<SloganCard key={slogan} slogan={slogan} />)
+                })}
             </div>
-            <div>
+
+            {/* <div>
                 1,2,3
             </div>
-            <button>next</button>
+            <button>next</button> */}
 
         </div>
     );

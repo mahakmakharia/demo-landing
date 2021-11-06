@@ -1,7 +1,8 @@
 .generatorCard {
-  max-width: 50vw;
+  max-width: 60vw;
   display: block;
   margin: auto;
+  padding: 50px 48px;
 }
 
 .heading {
@@ -64,4 +65,83 @@
   color: #ffffff;
   border: none;
   margin-top: 48px;
+}
+
+.sloganList {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 48px 0px;
+  margin: 48px 0px;
+}
+
+.resultDiv {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 32px;
+  align-items: center;
+}
+
+.text {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1a181e;
+  margin: 0px;
+}
+
+.outlinedButton {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #146eb4;
+  padding: 8px 24px;
+  border: 1px solid #146eb4;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.slogansDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.sloganText {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+  background: #f2f2f2;
+  padding: 12px 16px;
+  min-height: 60px;
+  border-radius: 4px;
+
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1a181e;
+  white-space: normal;
+  text-align: left;
+}
+
+.sloganBox {
+  background-color: #fff;
+  padding: 8px 0px;
+  width: 50%;
+}
+
+.sloganBox:nth-child(odd) {
+  padding-right: 8px;
+}
+.sloganBox:nth-child(even) {
+  padding-left: 8px;
 }

@@ -12,7 +12,7 @@ const SloganGeneratorSection = () => {
                 <input type="text" />
             </div>
             <button className={styles.blueButton}>Generate slogans</button>
-            {/* <GeneratedSlogan /> */}
+            <GeneratedSlogan />
 
         </div>
     );
