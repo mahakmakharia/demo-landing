@@ -1,0 +1,57 @@
+.productContainer {
+  max-width: 1200px;
+  padding: 80px 0px;
+  margin: 0px auto;
+}
+
+.heading {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+  color: #1a181e;
+}
+
+.productList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.productCard {
+  width: 34%;
+  padding-right: 32px;
+  padding-bottom: 36px;
+}
+
+.productCard:nth-child(3) {
+  width: 32%;
+  padding-right: 0px;
+}
+
+.productImg {
+  width: 100%;
+}
+.productName {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1a181e;
+  margin: 0px;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.productDesc {
+  margin: 0px;
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+}

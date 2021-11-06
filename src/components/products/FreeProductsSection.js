@@ -1,5 +1,6 @@
 import React from 'react';
 import FreeProductCard from './FreeProductCard';
+import styles from './product.module.css'
 
 const FreeProductsSection = () => {
     const products = [
@@ -25,12 +26,16 @@ const FreeProductsSection = () => {
         }
     ]
     return (
-        <div >
-            {products.map(product => {
-                return (
-                    <FreeProductCard key={product.name} name={product.name} description={product.description} src={product.src} />
-                )
-            })}
+        <div className={styles.productContainer} >
+            <h3 className={styles.heading}>Try our other free products</h3>
+            <div className={styles.productList}>
+                {products.map(product => {
+                    return (
+                        <FreeProductCard key={product.name} name={product.name} description={product.description} src={product.src} />
+                    )
+                })}
+
+            </div>
 
         </div>
     );

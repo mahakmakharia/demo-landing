@@ -1,12 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
+import styles from './product.module.css'
 
 const FreeProductCard = ({ src, name, description }) => {
     return (
-        <div >
-            <Image src={src} alt={name} height={200} width={300} />
-            <h3>{name}</h3>
-            <p>{description}</p>
+        <div className={styles.productCard} >
+            <div >
+                <Image className={styles.productImg} src={src} alt={name} height={200} width={400} />
+            </div>
+
+            <h3 className={styles.productName}>{name}</h3>
+            <p className={styles.productDesc}>{description}</p>
 
         </div>
     );
