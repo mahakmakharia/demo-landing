@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import HeroSection from '../src/components/HeroSection'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <p>Hello</p>
+        <HeroSection />
       </main>
 
     </div>
