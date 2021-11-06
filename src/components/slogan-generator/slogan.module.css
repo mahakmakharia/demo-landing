@@ -145,3 +145,50 @@
 .sloganBox:nth-child(even) {
   padding-left: 8px;
 }
+
+.pageinationDiv {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 48px;
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #146eb4;
+}
+
+.pageNumbers {
+  width: 50%;
+  display: flex;
+}
+
+.pageNo {
+  padding: 10px 15px;
+}
+
+.selectedNo {
+  height: 35px;
+  width: 35px;
+  padding-top: 8px;
+  margin-right: 5px;
+  text-align: center;
+  background-color: #146eb4;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.nextButton > button {
+  background-color: #fff;
+  border: none;
+  color: #146eb4;
+}
+.nextButton {
+  padding: 10px;
+  display: flex;
+}
+
+.buttonIcon {
+  display: flex;
+}

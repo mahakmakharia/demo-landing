@@ -1,4 +1,5 @@
 import React from 'react';
+import Pagination from './Pagination';
 import styles from './slogan.module.css'
 import SloganCard from './SloganCard';
 
@@ -26,10 +27,7 @@ const GeneratedSlogan = () => {
                 })}
             </div>
 
-            {/* <div>
-                1,2,3
-            </div>
-            <button>next</button> */}
+            <Pagination />
 
         </div>
     );
