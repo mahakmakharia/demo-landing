@@ -1,0 +1,63 @@
+.footerContainer {
+  background: #1a181e;
+  color: #fff;
+}
+
+.footerDiv,
+.copyright {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 0px auto;
+  width: 100%;
+}
+
+.footerDiv {
+  padding: 64px 0px 48px 0px;
+}
+
+.copyright {
+  padding-bottom: 24px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.copyright > p {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.logo {
+  width: 25%;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+}
+
+.linksBox {
+  width: 20%;
+}
+
+.linkList {
+  list-style: none;
+  margin-top: 0px;
+}
+
+.link {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 0px;
+  margin-bottom: 16px;
+}
