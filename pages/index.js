@@ -4,6 +4,7 @@ import HeroSection from '../src/components/HeroSection'
 import SloganGeneratorSection from '../src/components/slogan-generator/SloganGeneratorSection'
 import styles from '../styles/Home.module.css'
 import FreeProductsSection from '../src/components/products/FreeProductsSection'
+import Footer from '../src/components/footer/Footer'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <SloganGeneratorSection />
         <StepsSection />
         <FreeProductsSection />
+        <Footer />
       </main>
 
     </div>
