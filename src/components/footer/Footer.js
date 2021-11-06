@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <footer>
             <div>
-                <Image src="/assets/logos/logo-white.png" alt="logo" height={44} width={150} />
+                <Image src="/assets/logos/white-logo.png" alt="logo" height={44} width={150} />
             </div>
             <div>
                 {footerLinks.map((linkSet, index) => {
