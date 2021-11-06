@@ -1,0 +1,41 @@
+.stepsContainer {
+  background: rgba(20, 110, 180, 0.05);
+}
+
+.stepsDiv {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  padding: 48px 0px;
+  margin: 0px auto;
+}
+
+.stepCard {
+  text-align: center;
+  padding: 20px;
+  width: 33%;
+}
+
+.stepName {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #1a181e;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-top: 18px;
+}
+
+.stepDesc {
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4d4d4d;
+  margin: 0px;
+}

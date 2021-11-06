@@ -1,5 +1,6 @@
 import React from 'react';
 import StepCard from './StepCard';
+import styles from './steps.module.css'
 
 const StepsSection = () => {
     const steps = [
@@ -20,12 +21,15 @@ const StepsSection = () => {
         }
     ]
     return (
-        <div >
-            {steps.map(step => {
-                return (
-                    <StepCard key={step.name} name={step.name} src={step.src} description={step.description} />
-                )
-            })}
+        <div className={styles.stepsContainer}>
+            <div className={styles.stepsDiv}>
+                {steps.map(step => {
+                    return (
+                        <StepCard key={step.name} name={step.name} src={step.src} description={step.description} />
+                    )
+                })}
+            </div>
+
 
         </div>
     );
