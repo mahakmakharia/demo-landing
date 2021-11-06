@@ -3,6 +3,7 @@ import StepsSection from '../src/components/steps/StepsSection'
 import HeroSection from '../src/components/HeroSection'
 import SloganGeneratorSection from '../src/components/slogan-generator/SloganGeneratorSection'
 import styles from '../styles/Home.module.css'
+import FreeProductsSection from '../src/components/products/FreeProductsSection'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <HeroSection />
         <SloganGeneratorSection />
         <StepsSection />
+        <FreeProductsSection />
       </main>
 
     </div>
