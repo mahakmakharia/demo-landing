@@ -1,5 +1,6 @@
-.whiteBg {
+.lightBg {
   background-color: #fafafa;
+  height: 100vh;
 }
 
 .blueBg {
@@ -11,6 +12,14 @@
 .sloganCard {
   position: absolute;
   top: 10vw;
+  left: 15vw;
+  left: 15vw;
+  height: auto;
+  width: 70vw;
+  border-radius: 8px;
+  z-index: 1;
+  background-color: #fff;
+  padding: 50px 48px;
 }
 
 .navbar {
