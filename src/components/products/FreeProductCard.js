@@ -6,7 +6,7 @@ const FreeProductCard = ({ src, name, description }) => {
     return (
         <div className={styles.productCard} >
             <div >
-                <Image className={styles.productImg} src={src} alt={name} height={200} width={400} />
+                <Image className={styles.productImg} src={src} alt={name} height={220} width={400} />
             </div>
 
             <h3 className={styles.productName}>{name}</h3>
