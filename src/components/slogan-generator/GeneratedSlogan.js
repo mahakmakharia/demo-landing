@@ -15,21 +15,24 @@ const GeneratedSlogan = () => {
         "coziness building for tomorrow"]
 
     return (
-        <div className={styles.sloganList}>
-            <div className={styles.resultDiv}>
-                <p className={styles.text} >We have generated 1,023 slogans for “cozy”</p>
-                <div style={{ flexGrow: 1 }}></div>
-                <button className={styles.outlinedButton}>Download All</button>
-            </div>
-            <div className={styles.slogansDiv}>
-                {slogans.map(slogan => {
-                    return (<SloganCard key={slogan} slogan={slogan} />)
-                })}
-            </div>
+        <>
+            <div className={styles.sloganList}>
+                <div className={styles.resultDiv}>
+                    <p className={styles.text} >We have generated 1,023 slogans for “cozy”</p>
+                    <div style={{ flexGrow: 1 }}></div>
+                    <button className={styles.outlinedButton}>Download All</button>
+                </div>
+                <div className={styles.slogansDiv}>
+                    {slogans.map(slogan => {
+                        return (<SloganCard key={slogan} slogan={slogan} />)
+                    })}
+                </div>
 
+
+
+            </div>
             <Pagination />
-
-        </div>
+        </>
     );
 }
 

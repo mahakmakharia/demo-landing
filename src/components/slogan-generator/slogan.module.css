@@ -151,6 +151,7 @@
   flex-direction: row;
 
   margin-top: 48px;
+  margin-bottom: 32px;
   font-family: Galano Grotesque;
   font-style: normal;
   font-weight: normal;
@@ -191,4 +192,14 @@
 
 .buttonIcon {
   display: flex;
+}
+
+.selectedNo:hover,
+.pageNo:hover,
+.nextButton > button:hover,
+.nextButton:hover,
+.blueButton:hover,
+.outlinedButton:hover,
+.sloganBox:hover {
+  cursor: pointer;
 }

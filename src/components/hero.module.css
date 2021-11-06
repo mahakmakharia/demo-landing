@@ -1,6 +1,6 @@
 .lightBg {
   background-color: #fafafa;
-  padding: 148px 0 80px;
+  padding: 148px 0 120px;
   min-height: 100vh;
 }
 
@@ -23,6 +23,7 @@
   border-radius: 8px;
   margin: 0 auto;
   z-index: 1;
+  max-width: 1200px;
   background-color: #fff;
   box-shadow: 0 2px 8px 0 rgb(26 24 30 / 6%);
 }
@@ -69,4 +70,10 @@
 .signinButton {
   padding: 16px 32px;
   margin-right: 12px;
+}
+
+.signinButton:hover,
+.navItems:hover,
+.whiteButton:hover {
+  cursor: pointer;
 }
