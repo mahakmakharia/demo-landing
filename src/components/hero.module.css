@@ -23,19 +23,19 @@
   border-radius: 8px;
   margin: 0 auto;
   z-index: 1;
-  max-width: 1200px;
+  max-width: 1120px;
   background-color: #fff;
   box-shadow: 0 2px 8px 0 rgb(26 24 30 / 6%);
 }
 
 .navbar {
-  max-width: 1200px;
+  max-width: 1120px;
   display: flex;
   margin: auto;
   padding: 24px 8px;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1120px) {
   .navbar {
     padding: 20px 32px;
   }

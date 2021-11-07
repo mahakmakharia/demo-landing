@@ -5,7 +5,14 @@ const FooterLinks = ({ links }) => {
     return (
         <div className={styles.linksBox}>
             <ul className={styles.linkList}>
-                {links.map(link => <li className={styles.link} key={link}>{link}</li>)}
+                {links.map(link => {
+                    return (
+                        <><li className={styles.link} key={link}>
+                            {link}
+                            {link === "Jobs" ? <span className={styles.count}>3</span> : null}
+                        </li></>
+                    )
+                })}
             </ul>
 
         </div>
