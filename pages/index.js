@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import StepsSection from '../src/components/steps/StepsSection'
-import HeroSection from '../src/components/HeroSection'
+import HeroSection from '../src/components/hero-section/HeroSection'
 
 import FreeProductsSection from '../src/components/products/FreeProductsSection'
 import Footer from '../src/components/footer/Footer'

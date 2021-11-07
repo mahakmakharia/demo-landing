@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar';
-import SloganGeneratorSection from './slogan-generator/SloganGeneratorSection'
+import SloganGeneratorSection from '../slogan-generator/SloganGeneratorSection'
 import styles from './hero.module.css'
 
 const HeroSection = () => {
