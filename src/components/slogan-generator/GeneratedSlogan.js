@@ -14,6 +14,8 @@ const GeneratedSlogan = () => {
         "There is no Sore it will Not Heal, No cool it will not Subdue.",
         "coziness building for tomorrow"]
 
+    const copied = false;
+
     return (
         <>
             <div className={styles.sloganList}>
@@ -27,9 +29,6 @@ const GeneratedSlogan = () => {
                         return (<SloganCard key={slogan} slogan={slogan} />)
                     })}
                 </div>
-
-
-
             </div>
             <Pagination />
         </>

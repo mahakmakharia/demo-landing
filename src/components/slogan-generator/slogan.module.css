@@ -113,15 +113,10 @@
 }
 
 .sloganText {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-
   background: #f2f2f2;
   padding: 12px 16px;
-  min-height: 60px;
   border-radius: 4px;
+  min-height: 70px;
 
   font-family: Galano Grotesque;
   font-style: normal;
@@ -129,21 +124,24 @@
   font-size: 16px;
   line-height: 22px;
   color: #1a181e;
-  white-space: normal;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .sloganBox {
   background-color: #fff;
   padding: 8px 0px;
   width: 50%;
+  position: relative;
 }
 
 .sloganBox:nth-child(odd) {
-  padding-right: 8px;
+  padding-right: 16px;
 }
 .sloganBox:nth-child(even) {
-  padding-left: 8px;
+  padding-left: 16px;
 }
 
 .pageinationDiv {
@@ -202,4 +200,40 @@
 .outlinedButton:hover,
 .sloganBox:hover {
   cursor: pointer;
+}
+
+.copyToast,
+.copiedToast {
+  background: #4d4d4d;
+  border-radius: 4px;
+  position: absolute;
+  min-width: 80px;
+  max-width: 150px;
+  padding: 8px 16px;
+
+  font-family: Galano Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.sloganBox:nth-child(odd) > .copyToast {
+  left: -140px;
+  top: 22px;
+}
+.sloganBox:nth-child(even) > .copyToast {
+  right: -140px;
+  top: 22px;
+}
+
+.sloganBox:nth-child(odd) > .copiedToast {
+  left: -100px;
+  top: 22px;
+}
+
+.sloganBox:nth-child(even) > .copiedToast {
+  right: -100px;
+  top: 22px;
 }

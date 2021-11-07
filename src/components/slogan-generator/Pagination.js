@@ -26,7 +26,8 @@ const Pagination = () => {
 
             <div className={styles.nextButton} >
                 <button>Next</button>
-                <Image className={styles.buttonIcon} alt="next icon" src="/assets/icons/next.svg" height={12} width={12} />
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img className={styles.buttonIcon} alt="next icon" src="/assets/icons/next.svg" />
             </div>
 
         </div>)
