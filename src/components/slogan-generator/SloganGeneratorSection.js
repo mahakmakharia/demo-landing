@@ -17,12 +17,15 @@ const SloganGeneratorSection = () => {
     };
 
     const handleClick = () => {
-        setShowGeneratedText(true);
-        window.scroll({
-            top: 500,
-            left: 0,
-            behavior: 'smooth'
-        });
+        if (!disabled) {
+            setShowGeneratedText(true);
+            window.scroll({
+                top: 500,
+                left: 0,
+                behavior: 'smooth'
+            });
+        }
+
     }
 
 
