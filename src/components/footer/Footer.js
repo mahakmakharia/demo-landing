@@ -14,7 +14,7 @@ const Footer = () => {
         <footer className={styles.footerContainer}>
             <div className={styles.footerDiv}>
                 <div className={styles.logo}>
-                    <Image src="/assets/logos/white-logo.png" alt="logo" height={44} width={160} />
+                    <Image src="/assets/logos/white-logo.svg" alt="logo" height={44} width={160} />
                     <div style={{ flexGrow: 1 }}></div>
                 </div>
 
