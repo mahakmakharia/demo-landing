@@ -1,5 +1,5 @@
 .generatorCard {
-  max-width: 52vw;
+  max-width: 54vw;
   display: block;
   margin: auto;
   padding: 54px 48px;
@@ -213,11 +213,11 @@
 .copyToast,
 .copiedToast {
   background: #4d4d4d;
-  border-radius: 4px;
+  border-radius: 3px;
   position: absolute;
   min-width: 80px;
   max-width: 150px;
-  padding: 8px 16px;
+  padding: 6px 12px;
   font-family: "Galano_Grotesque_Med";
   font-size: 14px;
   line-height: 20px;
@@ -225,20 +225,20 @@
 }
 
 .sloganBox:nth-child(odd) > .copyToast {
-  left: -140px;
-  top: 22px;
+  left: -132px;
+  top: 24px;
 }
 .sloganBox:nth-child(even) > .copyToast {
-  right: -140px;
-  top: 22px;
+  right: -132px;
+  top: 24px;
 }
 
 .sloganBox:nth-child(odd) > .copiedToast {
   left: -100px;
-  top: 22px;
+  top: 24px;
 }
 
 .sloganBox:nth-child(even) > .copiedToast {
   right: -100px;
-  top: 22px;
+  top: 24px;
 }
