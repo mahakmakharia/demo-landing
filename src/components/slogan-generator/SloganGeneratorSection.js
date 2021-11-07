@@ -1,18 +1,69 @@
-import React from 'react';
+import React, { useState } from 'react';
 import GeneratedSlogan from './GeneratedSlogan';
 import styles from './slogan.module.css'
 
 const SloganGeneratorSection = () => {
+
+    const [sloganText, setSloganText] = useState("");
+    const [showIcon, setShowIcon] = useState(false);
+    const [disabled, setDisabled] = useState(true);
+    const [showGeneratedText, setShowGeneratedText] = useState(false);
+
+    const handleCancel = () => {
+        setSloganText('');
+        setShowIcon(false);
+        setDisabled(true)
+        setShowGeneratedText(false);
+    };
+
+    const handleClick = () => {
+        setShowGeneratedText(true);
+        window.scroll({
+            top: 500,
+            left: 0,
+            behavior: 'smooth'
+        });
+    }
+
+
+    const handleChange = (e) => {
+
+        const value = e.target.value;
+        setSloganText(value);
+
+        if (value) {
+            setShowIcon(true);
+            setDisabled(false);
+        }
+        else
+            handleCancel();
+    }
+
+    const handleEnter = (e) => {
+        if (e.keyCode == 13) {
+            handleClick();
+        }
+    };
+
+
     return (
         <div className={styles.generatorCard}>
-            <h4 className={styles.heading}>Free slogan maker</h4>
+            <h3 className={styles.heading}>Free slogan maker</h3>
             <p className={styles.desc}>Simply enter a term that describes your business, and get up to 1,000 relevant slogans for free.</p>
             <p className={styles.inputlabel}>Word for your slogan</p>
             <div className={styles.inputBox}>
-                <input type="text" />
+                {  /* eslint-disable-next-line @next/next/no-img-element */}
+                {showIcon ? <img className={styles.crossIcon} src="/assets/icons/cross.svg"
+                    alt="close icon" onClick={handleCancel} />
+                    : null}
+
+                <input type="text" value={sloganText} onChange={handleChange} onKeyDown={handleEnter} />
             </div>
-            <button className={styles.blueButton}>Generate slogans</button>
-            <GeneratedSlogan />
+            <button onClick={handleClick} className={disabled ? styles.blueButtonDisabled : styles.blueButton}>
+                Generate slogans
+            </button>
+            {showGeneratedText ? <GeneratedSlogan slogan={sloganText} /> : null}
+
 
         </div>
     );
