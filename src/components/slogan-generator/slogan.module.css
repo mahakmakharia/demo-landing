@@ -6,9 +6,7 @@
 }
 
 .heading {
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: 600;
+  font-family: "Galano_Grotesque_Semi";
   font-size: 36px;
   line-height: 42px;
   letter-spacing: -0.04em;
@@ -17,9 +15,6 @@
 }
 
 .desc {
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 28px;
   color: #4d4d4d;
@@ -28,9 +23,7 @@
 }
 
 .inputlabel {
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Galano_Grotesque_Med";
   font-size: 16px;
   line-height: 24px;
   color: #4d4d4d;
@@ -47,6 +40,7 @@
   box-sizing: border-box;
   border-radius: 4px;
   padding: 8px 16px;
+  font-family: "Galano_Grotesque_Reg";
   font-size: 20px;
 }
 
@@ -74,9 +68,7 @@
   height: 50px;
   background: #146eb4;
   border-radius: 4px;
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Galano_Grotesque_Med";
   font-size: 18px;
   line-height: 26px;
   color: #ffffff;
@@ -107,9 +99,7 @@
 }
 
 .text {
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Galano_Grotesque_Med";
   font-size: 20px;
   line-height: 28px;
   color: #1a181e;
@@ -117,9 +107,7 @@
 }
 
 .outlinedButton {
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Galano_Grotesque_Med";
   font-size: 14px;
   line-height: 20px;
 
@@ -142,10 +130,6 @@
   padding: 12px 16px;
   border-radius: 4px;
   min-height: 70px;
-
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 22px;
   color: #1a181e;
@@ -172,12 +156,8 @@
 .pageinationDiv {
   display: flex;
   flex-direction: row;
-
   margin-top: 48px;
   margin-bottom: 32px;
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 20px;
   color: #146eb4;
@@ -235,10 +215,7 @@
   min-width: 80px;
   max-width: 150px;
   padding: 8px 16px;
-
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Galano_Grotesque_Med";
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;

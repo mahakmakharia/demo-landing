@@ -9,7 +9,7 @@ const FreeProductCard = ({ src, name, description }) => {
                 <Image className={styles.productImg} src={src} alt={name} height={220} width={400} />
             </div>
 
-            <h3 className={styles.productName}>{name}</h3>
+            <p className={styles.productName}>{name}</p>
             <p className={styles.productDesc}>{description}</p>
 
         </div>

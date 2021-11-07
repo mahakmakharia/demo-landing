@@ -17,9 +17,7 @@
 }
 
 .stepName {
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Galano_Grotesque_Med";
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -30,9 +28,6 @@
 }
 
 .stepDesc {
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   text-align: center;

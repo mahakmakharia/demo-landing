@@ -23,13 +23,9 @@
 }
 
 .copyright > p {
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
-  opacity: 0.8;
 }
 
 .logo {
@@ -52,9 +48,6 @@
 }
 
 .link {
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 26px;
   color: #ffffff;

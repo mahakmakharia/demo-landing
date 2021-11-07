@@ -27,7 +27,7 @@ const FreeProductsSection = () => {
     ]
     return (
         <div className={styles.productContainer} >
-            <h3 className={styles.heading}>Try our other free products</h3>
+            <p className={styles.heading}>Try our other free products</p>
             <div className={styles.productList}>
                 {products.map(product => {
                     return (

@@ -5,9 +5,7 @@
 }
 
 .heading {
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: 600;
+  font-family: "Galano_Grotesque_Semi";
   font-size: 36px;
   line-height: 42px;
   letter-spacing: -0.04em;
@@ -35,9 +33,7 @@
   width: 100%;
 }
 .productName {
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Galano_Grotesque_Med";
   font-size: 20px;
   line-height: 28px;
   color: #1a181e;
@@ -48,9 +44,6 @@
 
 .productDesc {
   margin: 0px;
-  font-family: Galano Grotesque;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #4d4d4d;

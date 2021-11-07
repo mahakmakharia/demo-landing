@@ -1,28 +1,30 @@
 @font-face {
-  font-family: "Galano Grotesque";
+  font-family: "Galano_Grotesque_Reg";
   src: url("/fonts/galanogrotesque-regular.otf");
   font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: "Galano Grotesque";
+  font-family: "Galano_Grotesque_Med";
   src: url("/fonts/galanogrotesque-medium.otf");
-  font-weight: medium;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "Galano Grotesque";
+  font-family: "Galano_Grotesque_Semi";
   src: url("/fonts/galanogrotesque-semibold.otf");
-  font-weight: bold;
+  font-weight: normal;
+  font-style: normal;
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Galano Grotesque, -apple-system, BlinkMacSystemFont, Segoe UI,
-    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-    sans-serif;
+  font-family: "Galano_Grotesque_Reg", sans-serif;
   font-weight: normal;
+  font-style: normal;
 }
 
 a {

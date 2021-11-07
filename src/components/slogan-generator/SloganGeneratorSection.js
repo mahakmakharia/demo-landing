@@ -51,7 +51,7 @@ const SloganGeneratorSection = () => {
 
     return (
         <div className={styles.generatorCard}>
-            <h3 className={styles.heading}>Free slogan maker</h3>
+            <p className={styles.heading}>Free slogan maker</p>
             <p className={styles.desc}>Simply enter a term that describes your business, and get up to 1,000 relevant slogans for free.</p>
             <p className={styles.inputlabel}>Word for your slogan</p>
             <div className={styles.inputBox}>
